@@ -1,9 +1,9 @@
-
 # echarts-extend
 
 echarts 的扩展。
 
-.
+```js
+`.
 |-- README.md
 |-- demo
 |   |-- index.html
@@ -15,3 +15,4 @@ echarts 的扩展。
 `-- static
     `-- readme-img
         `-- demo1.gif
+`
