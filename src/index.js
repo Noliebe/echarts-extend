@@ -38,7 +38,6 @@
 
                         var befFunKey = nzAnimationNameMap[amtNameIndex] + 'Before'
                         _this[befFunKey] == undefined || _this[befFunKey](option)
-                        console.log('option', option)
 
                         if (amtName && amtNameIndex >= 0) {
                             var key = nzAnimationNameMap[amtNameIndex]
@@ -47,7 +46,7 @@
                                 a[key] = [];
                             }
                             // 是否未添加到数组中
-                            if(a[key].indexOf(echartObj) < 0){
+                            if (a[key].indexOf(echartObj) < 0) {
                                 a[key].push(echartObj)
                             }
                         }
@@ -146,7 +145,8 @@
 
         }
 
-        var nzEchartsObj = new initNzEcharts()
-
+        // var nzEchartsObj = new initNzEcharts()
+        // return  new initNzEcharts();
+        new initNzEcharts()
     }
 })();

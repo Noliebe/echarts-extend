@@ -5,7 +5,7 @@
 
     var myEchartObj = echarts.init(document.getElementById('myEchartNode'));
     var option = {
-        backgroundColor:"#333",
+        backgroundColor: "#333",
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -110,7 +110,7 @@
 
     option.nzAnimation = {
         // 动画名称
-        mationName:'setinterval02',
+        mationName: 'setinterval02',
         // 数据长度
         dataLength: data2.length,
         // 动画时长 暂时不支持
