@@ -1,5 +1,9 @@
 # echarts-extend
 
+
+![](static/readme-img/demo1.gif)
+
+
 echarts 的扩展。
 
 ```js
