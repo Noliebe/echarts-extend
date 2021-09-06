@@ -14,8 +14,9 @@
 
 ```js
     var myEchartObj = echarts.init(document.getElementById('myEchartNode'));
+    var data = ['dataItem1', 'dataItem2'];
     var option = {
-        ...你的echarts配置
+        //...你的echarts配置
     }
     option.nzAnimation = {
         // 动画名称
@@ -38,14 +39,15 @@
 
 ```js
     var myEchartObj = echarts.init(document.getElementById('myEchartNode'));
+    var data = ['dataItem1', 'dataItem2'];
     var option = {
-        ...你的echarts配置
+        // ...你的echarts配置
     }
     option.nzAnimation = {
         // 动画名称
         mationName:'setinterval02',
         // 数据长度
-        dataLength: data2.length,
+        dataLength: data.length,
         // 播放前等待时长  默认0
         await: 2,
     };
