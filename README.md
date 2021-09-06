@@ -1,11 +1,11 @@
-# echarts-extend
+# Echarts-Extend
 
 > echarts在构建大屏的时候经常会需要一些，数据预览动画、活泼页面的间次动画<br>
 而echarts并没有封装相关方法
 
 <br>
 
-## Demo1
+#### Demo1
 ![](static/readme-img/demo1.gif)
 
 
@@ -29,7 +29,7 @@
 
 <br>
 
-## Demo2
+#### Demo2
 再举个栗子
 
 ![](static/readme-img/demo2.gif)
