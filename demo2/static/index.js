@@ -106,17 +106,17 @@
                 // data: dataY2
             }
         ],
-        animationDelay: function (idx) {
-            // 越往后的数据延迟越大
-            return idx * 200;
-        },
-        animationDelayUpdate: function (idx) {
-            // 越往后的数据延迟越大
-            return idx * 200;
-        }
     };
 
-    option.nzData = data2;
-    option.nzSetintervalAnimation_01 = true;
+    option.nzAnimation = {
+        // 动画名称
+        mationName:'setinterval02',
+        // 数据长度
+        dataLength: data2.length,
+        // 动画时长 暂时不支持
+        // timing: 2,
+        // 播放前等待时长  默认0
+        await: 2,
+    };
     myEchartObj.setOption(option);
 })();
